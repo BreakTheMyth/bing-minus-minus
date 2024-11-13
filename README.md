@@ -16,23 +16,13 @@
 
 # 安装
 
-## Firefox
+## 在线安装
 
-- 请移步至[Bing--](https://addons.mozilla.org/zh-CN/firefox/addon/bing-/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)，点击**添加到 Firefox**
+- 请移步至[firefox addons](https://addons.mozilla.org/zh-CN/firefox/addon/bing-/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)，点击**添加到 Firefox**
 
-## 其它
+## 离线安装
 
-- 无
-
-# 卸载
-
-## Firefox
-
-- 请移步至[Bing--](https://addons.mozilla.org/zh-CN/firefox/addon/bing-/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)，点击**移除**
-
-## 其它
-
-- 无
+- 请移步至[releases](https://github.com/BreakTheMyth/bing-minus-minus/releases/)，下载**bing-minus-minus.xpi**文件，在**附加组件管理器**中点击**从文件安装附加组件...**
 
 # 使用
 

@@ -258,7 +258,7 @@ $(() => {
 			const textBeforeCursor = quill.getText(0, position);
 			var newWord = "site:" + getHostname($(e.target).text()) + " ";
 			if (!quill.getText().includes(newWord)) {
-				if (textBeforeCursor !== "") newWord = " " + newWord;
+				if (textBeforeCursor !== "") newWord = "\n" + newWord;
 				quill.insertText(position, newWord);
 				quill.setSelection(position + newWord.length, 0);
 			} else {
@@ -274,7 +274,7 @@ $(() => {
 			const textBeforeCursor = quill.getText(0, position);
 			var newWord = "intitle:\"" + $(e.target).text() + "\" ";
 			if (!quill.getText().includes(newWord) && newWord !== "") {
-				if (textBeforeCursor !== "") newWord = " " + newWord;
+				if (textBeforeCursor !== "") newWord = "\n" + newWord;
 				quill.insertText(position, newWord);
 				quill.setSelection(position + newWord.length, 0);
 			} else {
